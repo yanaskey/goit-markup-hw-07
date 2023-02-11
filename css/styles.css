@@ -406,9 +406,9 @@ img {
   min-width: 428px;
 }
 
-.team .section-title {
+/* .team .section-title {
   margin-bottom: 72px;
-}
+} */
 
 .team-member {
   background-color: var(--accent-white-color);
@@ -805,6 +805,10 @@ textarea:focus {
 .item-list-card {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+/* .item-list-card + .item-list-card {
+  margin-top: 48px;
+} */
 
 .card-border {
   padding-top: 28px;
