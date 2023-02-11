@@ -1,5 +1,6 @@
 @media screen and (min-width: 768px) {
-  .container {
+  .container,
+  .header-nosok {
     width: 768px;
   }
 
@@ -121,6 +122,7 @@
   .principles-flex-item {
     width: 356px;
     margin-right: 24px;
+    margin-bottom: 72px;
   }
 
   .principles-flex-item:nth-child(2n) {
@@ -145,19 +147,15 @@
     padding-bottom: 104px;
   }
 
-  .team .section-title {
-    margin-bottom: 0;
-  }
-
   .team-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
   }
-
   .team-member {
     margin-left: 0;
     margin-right: 24px;
+    margin-top: 0;
   }
 
   .team-member:first-child {
@@ -224,12 +222,14 @@
   }
 
   .filter {
-    margin-bottom: 72px;
     display: flex;
     justify-content: center;
   }
-  .filter-button {
+  .filter-button-item {
     margin-bottom: 0;
+  }
+  .filter-button-item:last-child {
+    margin-right: 0;
   }
 
   .portfolio .item-list {
@@ -238,11 +238,12 @@
   }
 
   .item-list-card {
+    max-width: 356px;
+  }
+
+  .item-list-card {
     margin-right: 24px;
     margin-bottom: 72px;
-  }
-  .item-list-card:nth-child(2n) {
-    margin-right: 0;
   }
 
   /* -------Footer---------  */
@@ -312,5 +313,16 @@
 
   .butn-text {
     justify-self: flex-start;
+  }
+}
+
+/* -------Potrfolio---------  */
+@media screen and (min-width: 768px), screen and (max-width: 1139px) {
+  .item-list-card:nth-child(2n) {
+    margin-right: 0;
+  }
+
+  .item-list-card:last-child {
+    margin-bottom: 0;
   }
 }

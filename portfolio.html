@@ -20,7 +20,7 @@
   </head>
   <body>
     <header class="main-header">
-      <div class="container header">
+      <div class="header-nosok">
         <nav class="main-nav">
           <a href="index.html" class="logo"
             >Web<span class="logo-dark">Studio</span></a
@@ -48,12 +48,12 @@
             <a class="contact" href="tel:+110001111111">+11 (000) 111-11-11</a>
           </li>
         </ul>
+        <button class="menu-open" type="button" data-menu-open>
+          <svg class="menu-open-ikon" width="32" height="22">
+            <use href="./images/ikons.svg#icon-burger"></use>
+          </svg>
+        </button>
       </div>
-      <button class="menu-open" type="button" data-menu-open>
-        <svg class="menu-open-ikon" width="32" height="22">
-          <use href="./images/ikons.svg#icon-burger"></use>
-        </svg>
-      </button>
     </header>
 
     <main>
@@ -63,13 +63,19 @@
 
           <!--Filter-->
           <ul class="filter">
-            <li><button type="button" class="filter-button">All</button></li>
-            <li>
+            <li class="filter-button-item">
+              <button type="button" class="filter-button">All</button>
+            </li>
+            <li class="filter-button-item">
               <button type="button" class="filter-button">Web Site</button>
             </li>
-            <li><button type="button" class="filter-button">App</button></li>
-            <li><button type="button" class="filter-button">Design</button></li>
-            <li>
+            <li class="filter-button-item">
+              <button type="button" class="filter-button">App</button>
+            </li>
+            <li class="filter-button-item">
+              <button type="button" class="filter-button">Design</button>
+            </li>
+            <li class="filter-button-item">
               <button type="button" class="filter-button last">
                 Marketing
               </button>
