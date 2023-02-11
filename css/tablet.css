@@ -146,6 +146,9 @@
   .team {
     padding-bottom: 104px;
   }
+  .team .section-title {
+    margin-bottom: 0;
+  }
 
   .team-list {
     display: flex;

@@ -406,9 +406,9 @@ img {
   min-width: 428px;
 }
 
-/* .team .section-title {
+.team .section-title {
   margin-bottom: 72px;
-} */
+}
 
 .team-member {
   background-color: var(--accent-white-color);
