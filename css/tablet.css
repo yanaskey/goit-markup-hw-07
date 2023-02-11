@@ -317,7 +317,7 @@
 }
 
 /* -------Potrfolio---------  */
-@media screen and (min-width: 768px), screen and (max-width: 1139px) {
+@media screen and (min-width: 768px), screen and (max-width: 1199px) {
   .item-list-card:nth-child(2n) {
     margin-right: 0;
   }

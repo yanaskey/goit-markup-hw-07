@@ -1,4 +1,4 @@
-@media screen and (min-width: 1140px) {
+@media screen and (min-width: 1200px) {
   .container,
   .header-nosok {
     width: 1140px;
@@ -39,6 +39,9 @@
       url(../images/hero-bg/bg-comp.jpg);
     padding-top: 188px;
     padding-bottom: 188px;
+    max-width: 1440px;
+    display: flex;
+    align-items: center;
   }
 
   @media screen and (min-device-pixel-ratio: 2),
