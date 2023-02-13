@@ -1,6 +1,5 @@
 @media screen and (min-width: 768px) {
-  .container,
-  .header-nosok {
+  .container {
     width: 768px;
   }
 
