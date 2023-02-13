@@ -1,7 +1,6 @@
-@media screen and (min-width: 1200px) {
-  .container,
-  .header-nosok {
-    width: 1140px;
+@media screen and (min-width: 1158px) {
+  .container {
+    width: 1158px;
   }
 
   /* -------Header---------  */
@@ -137,6 +136,7 @@
   }
 
   .team-member {
+    margin-bottom: 0;
     margin-right: 0;
   }
 

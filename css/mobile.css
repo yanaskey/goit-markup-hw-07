@@ -1,11 +1,23 @@
-@media screen and (min-width: 480px), screen and (max-width: 767px) {
+@media screen and (min-width: 486px) {
   .container {
     width: 428px;
   }
-}
+  /* -------------Customers------ */
+  .customer-container .customer-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* max-width: 396px; */
+  }
 
-@media screen and (max-width: 480px) {
-  .header-nosok {
-    width: 428px;
+  .customer-list-item {
+    margin-bottom: 72px;
+    width: calc((100%-16px) / 2);
+    display: flex;
+    justify-content: center;
+  }
+
+  .customer-list-item:nth-last-child(-n + 2) {
+    margin-bottom: 0;
   }
 }

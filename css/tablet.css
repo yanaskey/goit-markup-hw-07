@@ -147,7 +147,7 @@
     padding-bottom: 104px;
   }
   .team .section-title {
-    margin-bottom: 0;
+    margin-bottom: 72px;
   }
 
   .team-list {
@@ -156,19 +156,21 @@
     justify-content: center;
   }
   .team-member {
-    margin-left: 0;
+    margin-bottom: 64px;
+    /* margin-left: 0; */
     margin-right: 24px;
   }
 
-  .team-member:first-child {
+  /* .team-member:first-child {
     margin-top: 72px;
-  }
+  } */
 
   .team-member:nth-last-child(-n + 2) {
-    margin-top: 64px;
+    margin-bottom: 0;
   }
 
   .team-member:nth-child(2n) {
+    /* margin-bottom: 0; */
     margin-right: 0;
   }
 
